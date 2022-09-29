@@ -6,7 +6,7 @@
 /*   By: iamoros- <iamoros-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/21 20:43:35 by iamoros-          #+#    #+#             */
-/*   Updated: 2022/09/29 12:45:15 by iamoros-         ###   ########.fr       */
+/*   Updated: 2022/09/29 13:00:10 by iamoros-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,6 @@ char	*ft_itoa(int n)
 	char	*dst;
 	int	size;
 
-	i = 0;
 	size = ft_size(n);
 	dst = (char *)malloc((size + 1) * sizeof(char));
 	if (!dst)
