@@ -6,7 +6,7 @@
 /*   By: iamoros- <iamoros-@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/21 20:43:35 by iamoros-          #+#    #+#             */
-/*   Updated: 2022/05/30 22:33:22 by iamoros-         ###   ########.fr       */
+/*   Updated: 2022/09/29 12:45:15 by iamoros-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,8 +53,7 @@ static int	ft_size(int n)
 char	*ft_itoa(int n)
 {
 	char	*dst;
-	int		i;
-	int		size;
+	int	size;
 
 	i = 0;
 	size = ft_size(n);
